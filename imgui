@@ -1396,7 +1396,7 @@ local library library = {
             boardcolor = Color3.fromRGB(21, 22, 23),
             rounding = 5,
             animation = 0.1,
-            position = UDim2.new(0, ViewportSize.X / 2 - 350, 0, ViewportSize.Y / 2 - 450),
+            position = UDim2.new(0, ViewportSize.X - 350, 0, ViewportSize.Y / 2 - 100),
         }).handle(options)
 
         local main = new("Main") main.Parent = ScreenGui
